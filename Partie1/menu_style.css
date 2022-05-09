@@ -39,9 +39,12 @@ ul {
 
 #menu {
     margin: 0px;
-    padding: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap:2em;
+    border: 2px solid black;
 }
 
 a:hover{
@@ -91,7 +94,7 @@ a:hover{
 }
 
 #menu li:first-child:hover ul li{
-    background-color:rgb(116, 109, 219);
+    background-color:rgb(60, 51, 185);
     border-radius : 0;
 }
 
